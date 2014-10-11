@@ -1,0 +1,43 @@
+---
+title: "Getting Excel Data into R"
+output: html_document
+---
+
+Objectives
+* Start from Excel and learn how to export .csv files
+* Go over different commands for reading in files
+* Learn specific commands for extracting data from Excel (sheets, etc.)
+
+
+Sometimes we want to be able to transfer data from Excel to R, or vice versa
+* Someone sent you data saved in Excel spreadsheets.
+* You are working with someone who has asked for a copy of your data or results in a .xls(x) file.
+* You want to use a spreadsheet program for your on-the-fly data entry!
+
+
+EXPORTING .csv FILES FROM EXCEL
+The easiest way to move content from Excel to R is to save it as a 'comma-separated-values', or .csv, file, rather than as a spreadsheet.
+
+.csv files are easy to read directly into R.
+
+But, you must pay attention to the structure of the data - i.e. how it is laid out in your spreadsheet.
+
+
+READING .csv FILES INTO R
+
+The command read.csv() is the main function.
+Let's go over some of the details...
+
+
+READING DATA FROM .xls AND .xlsx FILES INTO R
+
+There are a few packages that can help you directly read in data from Excel files, rather than exporting a .csv file.
+
+Install packages: ...
+
+EXPORTING DATA TO .csv FILES
+
+EXPORTING DATA TO .xls OR .xlsx FILES
+
+Key Points
+
